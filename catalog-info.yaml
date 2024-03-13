@@ -2,8 +2,11 @@ apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
   name: Test_Security_Insights 
+  description: just for fun
   annotations:
     github.com/project-slug: CsarGrnds/test
+    prometheus.io/rule: node_memory_MemAvailable_bytes|instance
+    prometheus.io/alert: 'NodeCPUUtilizationHigh'
 spec:
   type: other
   lifecycle: experimental
