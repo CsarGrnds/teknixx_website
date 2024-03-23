@@ -1,7 +1,7 @@
 apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
-  name: Test_Security_Insights 
+  name: Demo component 
   description: just for fun
   annotations:
     github.com/project-slug: CsarGrnds/test
